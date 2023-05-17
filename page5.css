@@ -1,0 +1,75 @@
+*
+{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;
+}
+body
+{
+   font-family: montserrat;
+  background-image: url(https://img.freepik.com/premium-photo/minimal-cartoon-tourism-plane-trip-planning-worldwide-tour-with-mark-map-red-pin-earth-location-transport-logistics-airplane-travel-leisure-touring-holiday-summer-concept-3d-rendering-illustration_598821-1537.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav
+{
+    background: #5b6a7a4f;
+    height:80px;
+    width:100%;
+}
+label.logo
+{
+    color:rgba(20, 92, 110, 0.77);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul
+{
+    float:right;
+    margin-right:20px;
+}
+nav ul li
+{
+    display:inline-block;
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a
+{
+    color:white;
+    font-size:17px;
+    padding:7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+
+}
+a.active,a:hover
+{
+    background:#98c1ea;
+    transition: .5s;
+
+}
+.checkbtn
+{
+    font-size:30px;
+    color:white;
+    float:right;
+    line-height:80px;
+    margin-right:40px;
+    cursor:pointer;
+    display:none;
+}
+#check
+{
+    display:none;
+}
+
+.m{
+  color: #0dcdf4;
+  text-align:center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
